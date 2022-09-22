@@ -2,6 +2,25 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+// import {
+//   ApolloClient,
+//   InMemoryCache,
+//   ApolloProvider,
+//   HttpLink,
+//   from,
+// } from "@apollo/client";
+// import {onError} from '@apollo/client/link/error'
+//
+// // const link = from(
+// //   errorLink,
+// //   new HttpLink({uri:})
+// // )
+//
+// const client = new ApolloClient({
+//   cache: new InMemoryCache(),
+//   link: link
+// })
+
 function App() {
   return (
     <div className="App">
